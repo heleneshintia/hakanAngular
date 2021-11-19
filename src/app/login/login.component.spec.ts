@@ -14,7 +14,7 @@ describe('LoginComponent', () => {
   let service: AuthenticationHttpService;
 
   let debugElement: DebugElement
-
+ //TEST
 
   beforeEach(async () => {
     httpClientSpy = jasmine.createSpyObj('HttpClient', ['get', 'post']);
